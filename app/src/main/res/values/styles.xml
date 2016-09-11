@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="buttonDefaultStyle">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="biggerButtonStyle" parent="buttonDefaultStyle">
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="mediumButtonStyle" parent="buttonDefaultStyle">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="smallButtonStyle" parent="buttonDefaultStyle">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+</resources>

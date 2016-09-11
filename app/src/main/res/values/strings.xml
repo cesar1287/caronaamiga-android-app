@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Carona Amiga</string>
+    <string name="title_activity_main">Carona Amiga</string>
+    <string name="title_activity_ride_request">Pedir Carona</string>
+    <string name="main_subtitle">Por favor, selecione uma opção</string>
+    <string name="main_title">Carona Amiga UFC</string>
+    <string name="main_option_request">Pedir carona</string>
+    <string name="main_option_give">Oferecer carona</string>
+    <string name="title_search_ride">Buscando</string>
+    <string name="search_ride_main_message">Estamos buscando uma carona adequada para você</string>
+    <string name="search_ride_cancel">Cancelar pedido</string>
+
+    <string name="offer_ride">Oferecer Carona</string>
+    <string name="request_ride">Pedir Carona</string>
+
+    <string-array name="vinculos">
+        <item>Estudante</item>
+        <item>Servidor</item>
+        <item>Professor</item>
+    </string-array>
+
+    <string name="destnation_point">Escolha o ponto de Destino</string>
+
+    <string-array name="stop_points_titles">
+        <item>Lagoa da Agronomia\nSentido Centro de Tecnologia</item>
+        <item>Biblioteca Central\nSentido Centro de Ciências</item>
+        <item>Secretaria de Tecnologia da Informação</item>
+        <item>Novo RU</item>
+        <item>Física</item>
+        <item>Educação Física</item>
+        <item>Matemática</item>
+        <item>RU</item>
+        <item>Biblioteca Central\nSentido Humberto Monte</item>
+        <item>Lagoa da Agronomia\nSentido Humberto Monte</item>
+        <item>Humberto Monte</item>
+    </string-array>
+
+
+    <string name="request_ride_message">Dirija-se para o seu ponto de paradamais próximo:\n</string>
+    <string name="just_wait_ride">Agora é só esperar!</string>
+    <string name="just_wait">\nSua Carona chegará em instantes!</string>
+
+    <string name="offer_ride_message">Agradeçemos (e muito) pela sua colaboração!</string>
+    <string name="thx">Obrigado!</string>
+
+    <string-array name="tolerance_options">
+        <item>100m</item>
+        <item>200m</item>
+        <item>300m</item>
+        <item>400m</item>
+        <item>500m</item>
+        <item>600m</item>
+        <item>700m</item>
+        <item>800m</item>
+        <item>900m</item>
+    </string-array>
+
+</resources>
