@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.com.roadway.caronaamiga.controller.ChooseStopPointActivity">
+    tools:context=".view.ChooseStopPointActivity">
 
     <include layout="@layout/toolbar"/>
 

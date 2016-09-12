@@ -12,9 +12,6 @@ import br.com.thindroid.commons.web.request.ClientException;
 import br.com.thindroid.commons.web.request.HttpClient;
 import br.com.thindroid.commons.web.request.ServerException;
 
-/**
- * Created by Esdras on 05/07/2016.
- */
 public class RequestStops extends AsyncTask {
     @Override
     protected Object doInBackground(Object[] params) {
@@ -22,11 +19,7 @@ public class RequestStops extends AsyncTask {
         try {
             RideStop obg = httpClient.executeJSONResponse(HttpClient.buildRequest("http://localhost:8080/stops", HttpMethod.GET, null), RideStop.class);
             Log.d("EOQ", obg.getName());
-        } catch (ServerException e) {
-            e.printStackTrace();
-        } catch (ClientException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (IOException|ClientException|ServerException e) {
             e.printStackTrace();
         }
         return null;

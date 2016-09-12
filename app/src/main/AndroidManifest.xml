@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".controller.MainActivity"
+            android:name=".view.MainActivity"
             android:label="@string/title_activity_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,14 +20,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".controller.RequestRide"
+            android:name=".view.RequestRide"
             android:label="@string/title_activity_ride_request" />
-        <activity android:name=".controller.ProfileActivity" />
-        <activity android:name=".controller.SearchRide" />
-        <activity android:name=".controller.OfferRide" />
-        <activity android:name=".controller.RideFounded" />
-        <activity android:name=".controller.ChooseStopPointActivity" />
-        <activity android:name=".controller.RideFinalMessageActivity"></activity>
+        <activity android:name=".view.ProfileActivity" />
+        <activity android:name=".view.SearchRide" />
+        <activity android:name=".view.OfferRide" />
+        <activity android:name=".view.RideFounded" />
+        <activity android:name=".view.ChooseStopPointActivity" />
+        <activity android:name=".view.RideFinalMessageActivity"/>
     </application>
 
 </manifest>

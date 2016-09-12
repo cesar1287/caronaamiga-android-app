@@ -1,16 +1,17 @@
-package br.com.roadway.caronaamiga.controller;
+package br.com.roadway.caronaamiga.view;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.TextView;
 
 import com.android.ui.utils.inject.Inject;
 import com.android.ui.utils.inject.InjectView;
 
 import br.com.roadway.caronaamiga.R;
+import br.com.roadway.caronaamiga.controller.RequestStops;
+import br.com.roadway.caronaamiga.view.BaseActivity;
+import br.com.roadway.caronaamiga.view.MainActivity;
 
-public class RequestRide extends BaseActivity {
+public class OfferRide extends BaseActivity {
 
     @InjectView(R.id.confirm)
     private View wgtBtnConfirm;
@@ -20,14 +21,14 @@ public class RequestRide extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ride_request);
+        setContentView(R.layout.activity_offer_ride);
         Inject.inject(this, getView());
         initComponents();
+        new RequestStops().execute();
     }
 
     private void initComponents() {
-        moveToScreen(wgtBtnConfirm, SearchRide.class);
+        moveToScreen(wgtBtnConfirm, MainActivity.class);
         moveToScreen(wgtBtnCancel, MainActivity.class);
     }
-
 }

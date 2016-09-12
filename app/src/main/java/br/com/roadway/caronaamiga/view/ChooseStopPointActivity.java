@@ -1,4 +1,4 @@
-package br.com.roadway.caronaamiga.controller;
+package br.com.roadway.caronaamiga.view;
 
 import android.content.Intent;
 import android.location.Location;

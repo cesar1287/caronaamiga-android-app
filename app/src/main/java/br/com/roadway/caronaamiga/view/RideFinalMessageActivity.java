@@ -1,8 +1,7 @@
-package br.com.roadway.caronaamiga.controller;
+package br.com.roadway.caronaamiga.view;
 
 import android.content.Intent;
 import android.location.Location;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -13,7 +12,6 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 import br.com.roadway.caronaamiga.R;
-import br.com.roadway.caronaamiga.model.StopPoint;
 import br.com.roadway.caronaamiga.utils.SharedPreferencesManager;
 import butterknife.Bind;
 import butterknife.ButterKnife;

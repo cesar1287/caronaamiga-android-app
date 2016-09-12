@@ -2,9 +2,6 @@ package br.com.roadway.caronaamiga.model;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
-/**
- * Created by Esdras on 05/07/2016.
- */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Location {
 

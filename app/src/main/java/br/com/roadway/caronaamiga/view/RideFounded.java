@@ -1,16 +1,15 @@
-package br.com.roadway.caronaamiga.controller;
+package br.com.roadway.caronaamiga.view;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 import com.android.ui.utils.inject.Inject;
 import com.android.ui.utils.inject.InjectView;
 
-import org.codehaus.jackson.map.deser.ValueInstantiators;
-
 import br.com.roadway.caronaamiga.R;
+import br.com.roadway.caronaamiga.view.BaseActivity;
+import br.com.roadway.caronaamiga.view.MainActivity;
+import br.com.roadway.caronaamiga.view.SearchRide;
 
 public class RideFounded extends BaseActivity {
 

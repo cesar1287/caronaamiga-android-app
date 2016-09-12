@@ -10,13 +10,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import java.util.List;
 
 import br.com.roadway.caronaamiga.R;
-import br.com.roadway.caronaamiga.controller.MainActivity;
-import br.com.roadway.caronaamiga.controller.RideFinalMessageActivity;
+import br.com.roadway.caronaamiga.view.MainActivity;
+import br.com.roadway.caronaamiga.view.RideFinalMessageActivity;
 import br.com.roadway.caronaamiga.model.StopPoint;
 
 public class StopPointAdapter extends RecyclerView.Adapter<StopPointAdapter.StopPointViewHolder> {
