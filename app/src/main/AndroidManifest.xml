@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.roadway.caronaamiga">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
@@ -10,6 +11,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
         <activity
             android:name=".view.MainActivity"
             android:label="@string/title_activity_main">
@@ -27,7 +31,8 @@
         <activity android:name=".view.OfferRide" />
         <activity android:name=".view.RideFounded" />
         <activity android:name=".view.ChooseStopPointActivity" />
-        <activity android:name=".view.RideFinalMessageActivity"/>
+        <activity android:name=".view.RideFinalMessageActivity" />
+        <activity android:name=".view.LoginActivity"/>
     </application>
 
 </manifest>
