@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "252039220042",
+    "firebase_url": "https://carona-amiga-fb797.firebaseio.com",
+    "project_id": "carona-amiga-fb797",
+    "storage_bucket": "carona-amiga-fb797.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252039220042:android:fe854c4401dfa36a",
+        "android_client_info": {
+          "package_name": "br.com.roadway.caronaamiga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252039220042-pd40tbupb8po0ufpdjmiivh1h9bh284r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.roadway.caronaamiga",
+            "certificate_hash": "9A4E15D6D18783E267C34E8DB9C3C9CFDC75CBD1"
+          }
+        },
+        {
+          "client_id": "252039220042-m1ids1pr0omu8tcasl71jfij79e9cqgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvE3fgV64Zi09oNnPf41Jl2gmxnuDEYuo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252039220042-m1ids1pr0omu8tcasl71jfij79e9cqgj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

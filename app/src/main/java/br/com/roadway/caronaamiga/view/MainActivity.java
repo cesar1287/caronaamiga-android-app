@@ -55,6 +55,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         setContentView(R.layout.activity_main);
 
+        startActivity(new Intent(this, LoginActivity.class));
+        finish();
+
         ButterKnife.bind(this);
 
         setupToolbar();
