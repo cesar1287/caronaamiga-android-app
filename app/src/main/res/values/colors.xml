@@ -7,4 +7,9 @@
     <color name="alphaDark">#A4000000</color>
     <color name="textColor">#FFFFFF</color>
     <color name="transparent">#00FFFFFF</color>
+
+    <color name="gray">#E4E4E4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#2CB673</color>
+    <color name="blue">#0572BA</color>
 </resources>

@@ -57,4 +57,7 @@
 
     <string name="facebook_app_id">301807716859941</string>
 
+    <string name="not_connected_warning">Ops! Você não está conectado...</string>
+    <string name="try_again">Tentar novamente</string>
+
 </resources>
